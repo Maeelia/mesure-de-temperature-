@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="3B~c%6u||B7/1`~2Jk8n" x="0" y="-138"/><block type="device_forever" id=")N_Oy~yWSXLYHZ|LR#BG" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="o!PX[;8~HJ}waF8IY%Ic"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="A3Olng[Y!0:trt*1*m/J"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_clear_display" id="R%%dP(g4dx__0[x|QVvt"><next><block type="device_print_message" id="UatbH*j3x%$E0T).2Y.$"><value name="text"><shadow type="text" id="z%QJZcy)p)%.?eaYQ{U,"><field name="TEXT">T=</field></shadow></value><next><block type="device_show_number" id="d}yLQjAo0a;`tLQf3^Rp"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="):zFoQzaW-@;T*x4XT8g"/></value><next><block type="device_print_message" id=":E2*jzrSuQSn$$KZ;xd%"><value name="text"><shadow type="text" id="XxIcNb/uLcU_n5gHI%i!"><field name="TEXT">DEGRES</field></shadow></value></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="oFZ^Yrm-Z2|Z|kg;1bVa"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field></block></statement></block></statement></block></xml>
